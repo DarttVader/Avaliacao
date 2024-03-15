@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 45px;
+    background-color: #000000;
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section h4 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem 0; 
+    margin-bottom: 20px; 
+}
+
+section p {
+    color: #f5f5f5;
+    padding: 15px 45px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+
+}
+
+form input:focus{
+    border-radius: 15px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    resize: none;
+}
+form textarea:focus{
+    border-radius: 15px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border:1px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 0.5s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+
+}
+form button:hover{
+    border: none;
+    box-shadow: inset 1px 1px 2px #f0f, inset 1px -1px 3px #0340d0,
+    inset -1px 1px 2px #efff0c, inset -1px -1px 2px #ff0000;
+    color: #000000;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+
+}
+form a{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border:1px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 0.5s;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+form a:hover{
+    border: none;
+    box-shadow: inset 1px 1px 2px #f0f, inset 1px -1px 3px #0340d0,
+    inset -1px 1px 2px #efff0c, inset -1px -1px 2px #ff0000;
+    color: #000000;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+
+    
+}
+
+
+/*OBG*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #00000c;
+    flex-direction: column;
+
+}
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin: 30px;
+}
+.paragraph{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 15px;
+    color: #f5f5f5;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 35px;
+}
+.btn:hover{
+    border: none;
+    box-shadow: inset 1px 1px 2px #f0f, inset 1px -1px 3px #0340d0,
+    inset -1px 1px 2px #efff0c, inset -1px -1px 2px #ff0000;
+    color: #000000;
+    border-radius: 35px;
+    background-color: #f5f5f5;
+
+}
+.fund {
+    background: url('../imagens/Fundo/8.jpg') center/cover no-repeat fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
